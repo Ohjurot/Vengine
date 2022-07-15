@@ -59,7 +59,7 @@ function vengine_project_default_setup(name, src_location)
     cppdialect(vengine_cpp_version)
 
     -- Core linking and include
-    includedirs { "${prj.location}", "%{wks.location}/src/vendor/" }
+    includedirs { "%{prj.location}", "%{wks.location}/src/vendor/" }
     libdirs { "%{wks.location}/build/%{cfg.architecture}-%{cfg.buildcfg}/lib/" }
 end
 
