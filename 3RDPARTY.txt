@@ -13,3 +13,10 @@ THE FOLLOWING EXTERNAL LIBRARYs ARE USED IN VENGINE
    Located in: src/vendor/lz4/LICENSE
    https://github.com/lz4/lz4
    BSD 2-Clause License (https://www.opensource.org/licenses/bsd-license.php)
+
+   pugixml
+   Copyright (c) 2006-2022 Arseny Kapoulkine
+   All rights reserved.
+   Located in: src/vendor/pugixml/LICENSE.md
+   https://github.com/zeux/pugixml
+   MIT License

@@ -43,7 +43,6 @@ function vengine_project_default_setup(name, src_location)
     location("%{wks.location}/" .. src_location)
     targetname(name)
     files { 
-        "%{prj.location}/LICENSE",
         "%{prj.location}/**.lua",
         "%{prj.location}/**.h", 
         "%{prj.location}/**.hh", 
