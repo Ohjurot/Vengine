@@ -19,6 +19,8 @@ workspace "Vengine VDK"
         include "src/vendor/lz4/premake5.lua"
         include "src/vendor/pugixml/premake5.lua"
         include "src/vendor/rapidjson/premake5.lua"
+        include "src/vendor/imgui/premake5.lua"
+        include "src/vendor/fmt/premake5.lua"
         -- TODO: freetype2
     group ""
 
