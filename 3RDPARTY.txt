@@ -1,0 +1,15 @@
+THE FOLLOWING EXTERNAL LIBRARYs ARE USED IN VENGINE
+
+   xxHash Library
+   Copyright (c) 2012-2021 Yann Collet
+   All rights reserved.
+   Located in: src/vendor/xxhash/LICENSE
+   https://github.com/Cyan4973/xxHash
+   BSD 2-Clause License (https://www.opensource.org/licenses/bsd-license.php)
+
+   LZ4 Library
+   Copyright (c) 2011-2020, Yann Collet
+   All rights reserved.
+   Located in: src/vendor/lz4/LICENSE
+   https://github.com/lz4/lz4
+   BSD 2-Clause License (https://www.opensource.org/licenses/bsd-license.php)
