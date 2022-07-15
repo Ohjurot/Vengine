@@ -20,3 +20,10 @@ THE FOLLOWING EXTERNAL LIBRARYs ARE USED IN VENGINE
    Located in: src/vendor/pugixml/LICENSE.md
    https://github.com/zeux/pugixml
    MIT License
+
+   RapidJSON
+   Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip.
+   All rights reserved.
+   Located in: src/vendor/rapidjson/license.txt
+   https://github.com/Tencent/rapidjson
+   MIT License (SEE license.txt RapidJSON uses more 3rd party stuff!)
