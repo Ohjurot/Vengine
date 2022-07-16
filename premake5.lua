@@ -6,6 +6,14 @@ include "dependencies.lua"
 vengine_core_libs = {}
 vengine_core_links = {}
 
+-- Engine libs
+vengine_lib_include = {
+    "%{wks.location}/src/engine/vengine_common",
+    "%{wks.location}/src/engine/vengine_runtime",
+    "%{wks.location}/src/engine/vengine_editor",
+    "%{wks.location}/src/engine/vengine_hal_core"
+}
+
 -- Configure workspace
 workspace "Vengine VDK"
     -- Workspace config
@@ -38,7 +46,7 @@ workspace "Vengine VDK"
         -- vengine_hal_steamworks (StaticLib implements steam)
 
         -- === Platform independet ===
-        -- vengine_common (StaticLib of util classes)
+        include "src/engine/vengine_common/premake5.lua"
         -- vengine_runtime (StaticLib of runtime - rendering, scripting, io, ...)
         -- vengine_editor (StaticLib of editor)
 

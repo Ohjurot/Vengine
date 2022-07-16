@@ -59,6 +59,7 @@ function vengine_project_default_setup(name, src_location)
 
     -- Core linking and include
     includedirs { "%{prj.location}", "%{wks.location}/src/vendor/" }
+    includedirs(vengine_lib_include)
     libdirs { "%{wks.location}/build/%{cfg.architecture}-%{cfg.buildcfg}/lib/" }
 end
 
@@ -96,4 +97,22 @@ function vengine_project_vendor_static_lib(name, src_location)
 
     -- Inject dependcies
     vengine_core_links[#vengine_core_links+1] = name;
+end
+
+function vengine_project_engine_static_lib(name, src_location)
+  kind("StaticLib")
+
+  -- Do default setup
+  vengine_project_default_setup(name, src_location)
+
+  -- Output names and location
+  targetdir "%{wks.location}/build/%{cfg.architecture}-%{cfg.buildcfg}/lib/"
+  objdir "%{wks.location}/build/%{cfg.architecture}-%{cfg.buildcfg}/obj/%{prj.name}/"
+
+  -- Defines
+  vengine_project_defines()
+  defines { "VENGINE_ENGINE_LIB" }
+
+  -- Inject dependcies
+  vengine_core_links[#vengine_core_links+1] = name;
 end
