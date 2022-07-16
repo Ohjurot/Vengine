@@ -48,3 +48,10 @@ THE FOLLOWING EXTERNAL LIBRARYs ARE USED IN VENGINE
    Located in: src/vendor/zlib/LICENSE
    https://zlib.net/
    zlib License
+
+   stduuid
+   Copyright (c) 2017
+   All rights reserved.
+   Located in: src/vendor/uuid/LICENSE
+   https://github.com/mariusbancila/stduuid
+   MIT License

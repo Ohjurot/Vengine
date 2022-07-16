@@ -22,6 +22,7 @@ workspace "Vengine VDK"
         include "src/vendor/imgui/premake5.lua"
         include "src/vendor/fmt/premake5.lua"
         include "src/vendor/zlib/premake5.lua"
+        include "src/vendor/uuid/premake5.lua"
         -- TODO: freetype2
     group ""
 
