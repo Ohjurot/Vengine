@@ -41,3 +41,10 @@ THE FOLLOWING EXTERNAL LIBRARYs ARE USED IN VENGINE
    Located in: src/vendor/fmt/LICENSE.rst
    https://github.com/fmtlib/fmt
    MIT License
+
+   zlib
+   (C) 1995-2022 Jean-loup Gailly and Mark Adler
+   All rights reserved.
+   Located in: src/vendor/zlib/LICENSE
+   https://zlib.net/
+   zlib License
